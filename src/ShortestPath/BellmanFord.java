@@ -35,16 +35,16 @@ public class BellmanFord {
                     distance.put(v, distance.get(u) + wt);
             }
         }
-        for(int i = 0; i < vertices.size(); i++){
-            for(Edge edge : edges){
-                char u = edge.getSource();
-                char v = edge.getDestination();
-                double wt = edge.getWeight();
-                if(distance.get(u) != Integer.MAX_VALUE && distance.get(u) + wt < distance.get(v)){
-                    System.out.println("Negative cycle exist");
-                }
+
+        for(Edge edge : edges){
+            char u = edge.getSource();
+            char v = edge.getDestination();
+            double wt = edge.getWeight();
+            if(distance.get(u) != Integer.MAX_VALUE && distance.get(u) + wt < distance.get(v)){
+                System.out.println("Negative cycle exist");
             }
         }
+
 
 
         System.out.println("Shortest distances from " + source + ":");
