@@ -86,9 +86,14 @@ Fork the repo → create a branch → make your change → submit a PR!
 
 ---
 
-## 📬 Contact
+## 📬 Connect with Me
 
-If you're looking to connect, discuss problems, or collaborate, feel free to reach out via [LinkedIn](http://www.linkedin.com/in/ramandeep-singh-420316100/).
+- [LinkedIn](http://www.linkedin.com/in/ramandeep-singh-420316100/)
+- [GitHub](https://github.com/Ramandeep-singh-bhatia)
+
+---
+
+Thanks for visiting! Feel free to ⭐ star the repo if you find it helpful — and remember, keep grinding 💪
 
 ---
 
